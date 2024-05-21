@@ -1,0 +1,19 @@
+section#unsplash-images-search {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  text-align: center;
+
+  .swiper-container {
+    position: relative;
+    overflow: hidden;
+
+    --swiper-theme-color: #ffffff;
+
+    .swiper-slide {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

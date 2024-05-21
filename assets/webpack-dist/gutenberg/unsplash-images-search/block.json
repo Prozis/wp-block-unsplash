@@ -1,0 +1,20 @@
+{
+  "name": "acf/unsplash-images-search",
+  "title": "Unsplash images search",
+  "description": "",
+  "category": "default",
+  "icon": "block-default",
+  "keywords": [
+    "Image block"
+  ],
+  "acf": {
+    "mode": "edit",
+    "renderTemplate": "render.php"
+  },
+  "supports": {
+    "mode": false,
+    "anchor": true
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}
